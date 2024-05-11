@@ -24,17 +24,17 @@ function Navbar() {
 
   return (
     <div
-      className={`h-[12vh] ease-in duration-500 ${bgColor}  flex justify-between items-center px-12 sticky top-0`}
+      className={`h-[12vh] max-w-full ease-in duration-500 ${bgColor}  flex justify-between items-center lg:px-12 md:px-12 sticky top-0 max-w-[640px] px-2`}
     >
       <NavLogo />
       <div
         id="options"
-        style={{ fontFamily: "Inria Sans", fontWeight: "300", color: color }}
+        style={{ fontFamily: "Inria Sans", fontWeight: "400", color: color }}
       >
-        <ul className="flex gap-16 text-[32px] md:text-[18px] sm:text-[10px]">
-          <li>Home</li>
-          <li>Projects</li>
-          <li>Blogs</li>
+        <ul className="flex cursor-pointer  lg:gap-16 lg:text-[32px] md:text-[28px] sm:text-[20px] md:gap-12 sm:gap-8 max-w-[640px] gap-4 text-[16px]">
+          <li className="hover:text-orange-400">Home</li>
+          <li className="hover:text-orange-400">Projects</li>
+          <li className="hover:text-orange-400">Blogs</li>
         </ul>
       </div>
     </div>
