@@ -1,8 +1,10 @@
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 function App() {
   return (
-    <div className="h-[210vh] bg-slate-600">
+    <div className="min-h-[110vh] bg-[#060D2D]">
       <Navbar />
+      <Home />
     </div>
   );
 }
