@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="w-full">
       <Hero />
-     <hr className="w-[94%]  mt-7 mb-7 mx-auto"/>
+     <hr className="w-[94%]  mt-7 mb-16 mx-auto"/>
       <About />
     </div>
   );
