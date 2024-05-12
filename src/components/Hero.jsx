@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from "./Button";
 function Hero() {
   return (
     <div className="lg:pt-[70px] lg:pl-[89px] sm:pt-[50px] min-w-[80%]  mediumPhone:pt-[36px] max-w-[358px] pt-[4px] pl-[68px]">
@@ -15,6 +15,7 @@ function Hero() {
       >
         FULL-STACK SOFTWARE DEVELOPER
       </div>
+      <Button />
     </div>
   );
 }
