@@ -24,7 +24,7 @@ function Navbar() {
 
   return (
     <div
-      className={`lg:h-[12vh] md:h-[12vh] sm:h-[10vh] max-w-full ease-in duration-500 ${bgColor}  flex justify-between items-center lg:px-12 md:px-12 sm:px-6 sticky top-0 max-w-[358px] px-2 h-[7vh] mediumPhone:px-6  mediumPhone:h-[9vh]`}
+      className={`lg:h-[12vh] md:h-[12vh] sm:h-[10vh] max-w-full ease-in duration-500 ${bgColor}  flex justify-between items-center rounded lg:px-12 md:px-12 sm:px-6 sticky top-0 max-w-[358px] px-2 h-[7vh] mediumPhone:px-6  mediumPhone:h-[9vh]`}
     >
       <NavLogo />
       <div

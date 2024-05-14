@@ -15,7 +15,7 @@ function Hero() {
       >
         FULL-STACK SOFTWARE DEVELOPER
       </div>
-      <Button />
+      <Button text="View Projects" />
     </div>
   );
 }

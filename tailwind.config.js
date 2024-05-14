@@ -13,6 +13,7 @@ export default {
 
       lg: "1024px",
       // => @media (min-width: 1280px) { ... }
+      lagerThenLg: "1206px",
     },
   },
   plugins: [],
