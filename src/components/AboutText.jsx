@@ -6,13 +6,13 @@ function AboutText() {
     //making responsive
     <div>
       <div
-        className="lg:text-[30px] lagerThenLg:text-[35px] md:text-[24px] md:ml-0 sm:text-[30px] sm:mr-[351px] sm:ml-[56px]"
+        className="lg:text-[30px] lagerThenLg:text-[35px] md:text-[24px] md:ml-0 md:w-[50%] sm:text-[30px] sm:mr-[351px] sm:ml-[5%] mediumPhone:ml-[5%]"
         style={{ fontFamily: "Inria Sans" }}
       >
         ABOUT ME
       </div>
       <p
-        className="lg:text-[23px] lg:w-[97%] lagerThenLg:text-[27px] md:text-[19px] md:w-[96%] md:leading-[32px] md:ml-0  sm:text-[26px] sm:w-[80%] sm:leading-[27px] sm:ml-[56px]"
+        className="lg:text-[23px] lg:w-[97%] lg:leading-[32px] lagerThenLg:text-[27px] md:text-[17px] md:w-[80%]  md:leading-[24px] md:ml-0   sm:text-[26px] sm:w-[90%] sm:leading-[27px] sm:ml-[5%] mediumPhone:ml-[5%] mediumPhone:w-[86%]"
         style={{ fontFamily: "Josefin Sans" }}
       >
         Hello, I'm Sabbir Arnob, currently pursuing my BBA at Panjab Technical
@@ -25,7 +25,7 @@ function AboutText() {
         you're in safe hands.
       </p>
 
-      <div className="flex gap-4 sm:mr-[238px]">
+      <div className="flex gap-4 sm:ml-[5%] mediumPhone:ml-[4%]">
         <AboutButton
           text="Github"
           bgColor="bg-blue-500"
