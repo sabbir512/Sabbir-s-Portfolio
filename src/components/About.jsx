@@ -4,7 +4,7 @@ import AboutText from "./AboutText";
 
 function About() {
   return (
-    <div className="text-white flex md:flex-row sm:flex-col gap-3 sm:justify-center sm:items-start mediumPhone:flex-col">
+    <div className="text-white flex md:flex-row sm:flex-col gap-3 sm:justify-center sm:items-start mediumPhone:flex-col  smallerPhone:flex-col">
       <Image />
       <AboutText />
     </div>

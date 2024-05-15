@@ -1,5 +1,4 @@
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import { Home, Navbar } from "./components/index";
 function App() {
   return (
     <div className="min-h-[110vh] bg-[#060D2D]">

@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {},
     screens: {
+      smallerPhone: "260px",
       mediumPhone: "358px",
       sm: "640px",
       // => @media (min-width: 640px) { ... }
