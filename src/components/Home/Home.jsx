@@ -7,7 +7,7 @@ function Home() {
       <Hero />
       <hr className="w-[94%]  mt-7 mb-16 mx-auto" />
       <About />
-      <hr className="w-[94%]  mt-7 mb-16 mx-auto" />
+      <hr className="w-[94%] mt-7 sm:mb-16 mx-auto smallerPhone:mb-10" />
       <Work />
     </div>
   );
