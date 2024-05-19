@@ -8,7 +8,7 @@ export const contentObject = {
     "This React and Bootstrap news website showcases my proficiency in front-end development and API integration. Despite API limitations, navigating challenges like static data display enriched my problem-solving skills, ensuring a robust learning journey.",
 };
 
-//Variables of url
+//Variables of url for work componet
 const realStateWebUrl = "https://real-state-landing-page-sigma.vercel.app";
 const realStateCodeUrl = "https://github.com/sabbir512/Real-state_landing_page";
 const tributePageWebUrl = "https://tribute-dusky-two.vercel.app/";
@@ -25,9 +25,26 @@ export {
   newsAppCodeUrl,
 };
 
-//Images
+//Images for work component
 import realStateImage from "../assets/projectImage/realstate.png";
 import tributePage from "../assets/projectImage/tribute.png";
 import newsApp from "../assets/projectImage/newsapp.png";
 
 export { realStateImage, tributePage, newsApp };
+
+//Logos for ExpContent Component
+
+import htmlLogo from "../assets/logos/htmlLogo.png";
+import cssLogo from "../assets/logos/CSSlogo.svg.png";
+import tailwindLogo from "../assets/logos/tailwind-css-logo.png";
+import javaScriptLogo from "../assets/logos/jslogo.png";
+import reactLogo from "../assets/logos/ReactLogo.svg.png";
+import typeScriptLogo from "../assets/logos/typeScriptlogo.png";
+import nodeLogo from "../assets/logos/node-js-icon.png";
+import expressJsLogo from "../assets/logos/express-js.png";
+import figmaLogo from "../assets/logos/Figma-logo.svg.png";
+import mongoLogo from "../assets/logos/mongodb-logo.png";
+import gitLogo from "../assets/logos/Git_icon.svg.png";
+import githubLogo from "../assets/logos/github_logo.png";
+
+export { htmlLogo, cssLogo, tailwindLogo, javaScriptLogo,reactLogo,typeScriptLogo,nodeLogo,expressJsLogo, figmaLogo, mongoLogo, gitLogo, githubLogo };
