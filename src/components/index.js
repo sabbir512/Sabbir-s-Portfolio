@@ -5,5 +5,6 @@ import Home from "./Home/Home";
 import Navbar from "./Navbar";
 import Experience from "./Experience";
 import Services from "./Services";
+import Contact from "./Contact";
 
-export { Hero, About, Work, Home, Navbar, Experience, Services };
+export { Hero, About, Work, Home, Navbar, Experience, Services, Contact };

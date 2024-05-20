@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, About, Work, Experience, Services } from "../index";
+import { Hero, About, Work, Experience, Services, Contact } from "../index";
 
 function Home() {
   return (
@@ -13,6 +13,8 @@ function Home() {
       <Experience />
       <hr className="w-[94%] mt-7 sm:mb-16 mx-auto smallerPhone:mb-10" />
       <Services />
+      <p className="pt-10"></p>
+      <Contact />
     </div>
   );
 }
