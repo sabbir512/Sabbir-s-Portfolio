@@ -2,7 +2,7 @@ import React from "react";
 import ExpContent from "./ExpContent";
 function Experience() {
   return (
-    <div className="pb-7">
+    <div>
       <h2
         className="text-white font-medium text-center lg:text-[65px] md:text-[50px] sm:text-[40px] mediumPhone:text-[22px] smallerPhone:text-[18px]"
         style={{ fontFamily: "Roboto" }}

@@ -1,4 +1,4 @@
-//Contents
+//Contents for work component
 export const contentObject = {
   realstate:
     "This single-page website is a testament to my skills in JavaScript, CSS, and HTML. Utilizing Swiper.js for animations added an extra layer of dynamism to the project. While the journey had its challenges, overcoming them was immensely rewarding, and I gained valuable insights along the way.",
