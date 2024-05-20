@@ -5,7 +5,12 @@ export default {
     extend: {},
     screens: {
       smallerPhone: "260px",
+      // => @media (min-width: 260px) { ... }
       mediumPhone: "358px",
+      // => @media (min-width: 358px) { ... }
+      extPhone: "490px",
+      //some component need multiple break point that's why this extphone
+      // => @media (min-width: 358px) { ... }
       sm: "640px",
       // => @media (min-width: 640px) { ... }
 

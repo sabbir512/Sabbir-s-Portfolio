@@ -47,4 +47,49 @@ import mongoLogo from "../assets/logos/mongodb-logo.png";
 import gitLogo from "../assets/logos/Git_icon.svg.png";
 import githubLogo from "../assets/logos/github_logo.png";
 
-export { htmlLogo, cssLogo, tailwindLogo, javaScriptLogo,reactLogo,typeScriptLogo,nodeLogo,expressJsLogo, figmaLogo, mongoLogo, gitLogo, githubLogo };
+export {
+  htmlLogo,
+  cssLogo,
+  tailwindLogo,
+  javaScriptLogo,
+  reactLogo,
+  typeScriptLogo,
+  nodeLogo,
+  expressJsLogo,
+  figmaLogo,
+  mongoLogo,
+  gitLogo,
+  githubLogo,
+};
+
+//Icons for ServContent
+import laptopIcon from "../assets/icons/laptop-code-solid.svg";
+import wordpressIcon from "../assets/icons/wordpress-simple.svg";
+import screwIcon from "../assets/icons/screwdriver-wrench-solid.svg";
+import codeIcon from "../assets/icons/code-solid.svg";
+
+export { laptopIcon, wordpressIcon, screwIcon, codeIcon };
+
+//contents for ServContent;
+
+const servObject = {
+  customWeb: {
+    title: "CUSTOM WEBSITE DEVELOPMENT",
+    desc: "Ready to establish a unique online presence? I specialize in crafting custom websites that are lightning-fast, feature clean and efficient code, and are optimized for search engines. With a focus on performance, reliability, and SEO, your website will stand out from the competition and attract more visitors. Let's build something extraordinary together!",
+  },
+  wordPress: {
+    title: "WORDPRESS WEBSITE DEVELOPMENT",
+    desc: "WordPress is trusted worldwide for its user-friendly interface and cost-effectiveness. If you're in need of a WordPress website, look no further! With my extensive experience, I specialize in creating stunning WordPress websites tailored to your needs. From design to development, I'll handle everything for you. Let's bring your vision to life with a WordPress.",
+  },
+
+  support: {
+    title: "SUPPORT AND MAINTENANCE",
+    desc: "If you have an existing website that needs updates, debugging, or new features, you're in the right place. Websites require ongoing care, much like babies, and I'm here to provide you with maintenance services to ensure your website stays in top shape. Let me take care of your website's needs so you can focus on growing your business and reaching your goals.",
+  },
+  programming: {
+    title: "PROGRAMMING LANGUAGE",
+    desc: "Need programming solutions? Look no further! I specialize in JavaScript and provide a range of programming services tailored to your needs. From frontend web development to backend systems or debugging/adding new features to your existing website, I've got you covered. Let's bring your ideas to life!",
+  },
+};
+
+export { servObject };
