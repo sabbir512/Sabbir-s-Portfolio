@@ -8,7 +8,7 @@ import {
 function FooterIcon() {
   return (
     <div>
-      <div id="socialMedia" className="text-white grid grid-cols-3 gap-8">
+      <div id="socialMedia" className="text-white grid grid-cols-3 gap-8 md:gap-8 sm:gap-6 mediumPhone:grid-cols-3 extPhone:gap-4 smallerPhone:gap-2 smallerPhone:grid-cols-2 ">
         <a href="https://www.google.com" target="_blank">
           <div className={classesForIcons.divClass}>
             <img
