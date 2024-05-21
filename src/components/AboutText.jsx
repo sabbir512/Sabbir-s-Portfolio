@@ -2,6 +2,12 @@ import React from "react";
 import AboutButton from "./AboutButton";
 
 function AboutText() {
+  const handleHireMe = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     //making responsive
     <div>
@@ -30,6 +36,7 @@ function AboutText() {
           text="HIRE ME"
           bgColor="bg-blue-500"
           hoverColor="hover:bg-orange-500"
+          onclick={handleHireMe}
         />
         <AboutButton
           text="RESUME"

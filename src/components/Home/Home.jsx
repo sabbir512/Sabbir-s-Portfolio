@@ -1,5 +1,13 @@
 import React from "react";
-import { Hero, About, Work, Experience, Services, Contact } from "../index";
+import {
+  Hero,
+  About,
+  Work,
+  Experience,
+  Services,
+  Contact,
+  Footer,
+} from "../index";
 
 function Home() {
   return (
@@ -15,6 +23,8 @@ function Home() {
       <Services />
       <p className="pt-10"></p>
       <Contact />
+     
+      <Footer />
     </div>
   );
 }

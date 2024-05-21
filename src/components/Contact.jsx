@@ -1,9 +1,8 @@
 import React from "react";
-import ContactInfo from "./ContactInfo";
-import ContactForm from "./ContactForm";
+import { ContactInfo, ContactForm } from "./index";
 function Contact() {
   return (
-    <div className="bg-gradient-to-r from-[#4A35C2] via-[#4B60CB] to-[#4F92D6] pb-7 rounded-t-3xl min-h-full ">
+    <div id='contact' className="bg-gradient-to-r from-[#4A35C2] via-[#4B60CB] to-[#4F92D6] pb-7 rounded-t-3xl min-h-full ">
       <h1
         className="text-white text-center text-[40px] font-light pt-8 pb-2"
         style={{ fontFamily: "Roboto" }}

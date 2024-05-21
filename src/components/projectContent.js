@@ -93,3 +93,10 @@ const servObject = {
 };
 
 export { servObject };
+
+//FOOTER ICONS
+import faceBookIcon from "../assets/icons/facebook-f.svg";
+import linkedinIcon from "../assets/icons/linkedin-in.svg";
+import instagramIcon from "../assets/icons/instagram.svg";
+
+export { faceBookIcon, linkedinIcon, instagramIcon };
