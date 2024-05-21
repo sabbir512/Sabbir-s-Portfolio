@@ -25,11 +25,11 @@ function ContactInfo() {
       </div>
 
       <div className="pt-3 flex gap-3 items-center ">
-        <div className="lagerThenLg:w-[55px] lagerThenLg:h-[55px] rounded-lg bg-[#3E73DB] flex lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] sm:w-[35px] sm:h-[35px]  mediumPhone:w-[40px] mediumPhone:h-[40px] smallerPhone:w-[30px] smallerPhone:h-[30px]">
+        <div className={classesForIcons.divClass}>
           <img
             src={phoneIcon}
             alt="PhoneIcon"
-            className="lg:w-[22px] lg:h-[25px] m-auto sm:w-[17px] sm:h-[20px] mediumPhone:w-[22px] mediumPhone:h-[25px] smallerPhone:w-[14px]  smallerPhone:h-[17px]"
+            className={classesForIcons.imageClass}
           />
         </div>
         <p
@@ -41,11 +41,11 @@ function ContactInfo() {
       </div>
 
       <div className="pt-3 flex gap-3 items-center">
-        <div className="lagerThenLg:w-[55px] lagerThenLg:h-[55px] rounded-lg bg-[#3E73DB] flex lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] sm:w-[35px] sm:h-[35px] mediumPhone:w-[40px] mediumPhone:h-[40px]  smallerPhone:w-[30px] smallerPhone:h-[30px]">
+        <div className={classesForIcons.divClass}>
           <img
             src={emailIcon}
             alt="PhoneIcon"
-            className="lg:w-[22px] lg:h-[25px] m-auto sm:w-[17px] sm:h-[20px] mediumPhone:w-[22px] mediumPhone:h-[25px] smallerPhone:w-[14px] smallerPhone:h-[17px]"
+            className={classesForIcons.imageClass}
           />
         </div>
         <p

@@ -8,7 +8,7 @@ function Footer() {
       <div className="mt-5 md:px-16 sm:px-10 flex justify-between items-center extPhone:px-4 smallerPhone:px-2 ">
         <NavLogo />
         <p
-          className="text-white md:text-[20px] font-thin sm:text-[18px] extPhone:text-[15px] smallerPhone:text-[10px] "
+          className="text-white md:text-[20px] font-thin sm:text-[18px] extPhone:text-[15px] mediumPhone:text-[13px] smallerPhone:text-[10px] "
           style={{ fontFamily: "Roboto" }}
         >
           2024-SDEV|All rights reserved
