@@ -1,5 +1,5 @@
 import React from "react";
-import { phoneIcon, emailIcon, classesForIcons } from "./projectContent";
+import { phoneIcon, emailIcon, classesForIcons } from "../projectContent";
 function ContactInfo() {
   return (
     <div className="text-white lg:w-[90%] md:w-[98%] extPhone:w-[90%] smallerPhone:w-[100%]">

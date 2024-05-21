@@ -1,9 +1,11 @@
-import { Home, Navbar } from "./components/index";
+import { Navbar, Footer} from "./components/index";
+import { Outlet } from "react-router-dom";
 function App() {
   return (
-    <div className="min-h-[110vh] bg-[#060D2D]">
+    <div>
       <Navbar />
-      <Home />
+      <Outlet />
+      <Footer />
     </div>
   );
 }

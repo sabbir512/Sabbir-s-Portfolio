@@ -1,18 +1,22 @@
-import Hero from "./Hero";
-import About from "./About";
-import Work from "./Work";
+import App from "../App";
+import Hero from "./HomeComponents/Hero";
+import About from "./HomeComponents/About";
+import Work from "./HomeComponents/Work";
 import Home from "./Home/Home";
 import Navbar from "./Navbar";
-import Experience from "./Experience";
-import Services from "./Services";
-import Contact from "./Contact";
-import ContactInfo from "./ContactInfo";
-import ContactForm from "./ContactForm";
+import Experience from "./HomeComponents/Experience";
+import Services from "./HomeComponents/Services";
+import Contact from "./HomeComponents/Contact";
+import ContactInfo from "./HomeComponents/ContactInfo";
+import ContactForm from "./HomeComponents/ContactForm";
 import Footer from "./Footer";
 import NavLogo from "./NavLogo";
 import FooterIcon from "./FooterIcon";
+import Project from "./Projects/Project";
+import Blog from "./Blog/Blog";
 
 export {
+  App,
   Hero,
   About,
   Work,
@@ -26,4 +30,6 @@ export {
   Footer,
   NavLogo,
   FooterIcon,
+  Project,
+  Blog
 };

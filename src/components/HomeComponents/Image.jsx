@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../assets/photo/sabbir.jpeg";
+import myImage from "../../assets/photo/sabbir.jpeg";
 function Image() {
   return (
     //Making them responsive

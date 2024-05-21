@@ -1,8 +1,8 @@
 import React from "react";
 import WorkContent from "./WorkContent";
 //Getting the image and content from projectContent file, because i don't want grow bigger this componnet so that's why i simply export it from another file.
-import { realStateImage, tributePage, newsApp } from "./projectContent";
-import { contentObject } from "./projectContent";
+import { realStateImage, tributePage, newsApp } from "../projectContent";
+import { contentObject } from "../projectContent";
 import {
   realStateWebUrl,
   realStateCodeUrl,
@@ -10,7 +10,7 @@ import {
   tributePageCodeUrl,
   newsAppWebUrl,
   newsAppCodeUrl,
-} from "./projectContent";
+} from "../projectContent";
 function Work() {
   return (
     <div className="w-[100%]">

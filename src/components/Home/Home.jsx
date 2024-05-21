@@ -1,17 +1,9 @@
 import React from "react";
-import {
-  Hero,
-  About,
-  Work,
-  Experience,
-  Services,
-  Contact,
-  Footer,
-} from "../index";
+import { Hero, About, Work, Experience, Services, Contact } from "../index";
 
 function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full min-h-[110vh] bg-[#060D2D]">
       <Hero />
       <hr className="w-[94%]  mt-7 mb-16 mx-auto" />
       <About />
@@ -23,8 +15,6 @@ function Home() {
       <Services />
       <p className="pt-10"></p>
       <Contact />
-     
-      <Footer />
     </div>
   );
 }

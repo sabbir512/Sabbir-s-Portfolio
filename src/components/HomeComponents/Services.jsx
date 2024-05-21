@@ -7,7 +7,7 @@ import {
   screwIcon,
   codeIcon,
   servObject,
-} from "./projectContent";
+} from "../projectContent";
 function Services() {
   return (
     <div className="pb-7 w-full">

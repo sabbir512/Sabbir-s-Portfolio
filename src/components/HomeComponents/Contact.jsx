@@ -1,5 +1,5 @@
 import React from "react";
-import { ContactInfo, ContactForm } from "./index";
+import { ContactInfo, ContactForm } from "../index";
 function Contact() {
   return (
     <div id='contact' className="bg-gradient-to-r from-[#4A35C2] via-[#4B60CB] to-[#4F92D6] pb-7 rounded-t-3xl min-h-full ">

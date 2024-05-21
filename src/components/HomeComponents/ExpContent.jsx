@@ -13,7 +13,7 @@ import {
   mongoLogo,
   gitLogo,
   githubLogo,
-} from "./projectContent";
+} from "../projectContent";
 function ExpContent() {
   return (
     <div className="text-white w-[100%] text-center pt-5 grid gap-y-8">
