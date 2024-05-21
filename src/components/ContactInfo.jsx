@@ -1,6 +1,5 @@
 import React from "react";
-import phoneIcon from "../assets/icons/phone-sharp-regular.svg";
-import emailIcon from "../assets/icons/envelope-regular.svg";
+import { phoneIcon, emailIcon, classesForIcons } from "./projectContent";
 function ContactInfo() {
   return (
     <div className="text-white lg:w-[90%] md:w-[98%] extPhone:w-[90%] smallerPhone:w-[100%]">
@@ -50,7 +49,7 @@ function ContactInfo() {
           />
         </div>
         <p
-          className="lg:text-[20px] font-thin md:text-[18px] mediumPhone:text-[16px] smallerPhone:text-[10px]"
+          className="lg:text-[20px] font-thin md:text-[16px] mediumPhone:text-[14px] smallerPhone:text-[10px]"
           style={{ fontFamily: "Roboto" }}
         >
           sabbirkhan.kst178@gmail.com

@@ -94,9 +94,21 @@ const servObject = {
 
 export { servObject };
 
+//CONTACT COMPONENT ICON
+import phoneIcon from "../assets/icons/phone-sharp-regular.svg";
+import emailIcon from "../assets/icons/envelope-regular.svg";
+
+export { phoneIcon, emailIcon };
+
 //FOOTER ICONS
 import faceBookIcon from "../assets/icons/facebook-f.svg";
 import linkedinIcon from "../assets/icons/linkedin-in.svg";
 import instagramIcon from "../assets/icons/instagram.svg";
 
-export { faceBookIcon, linkedinIcon, instagramIcon };
+//CLASS OBJECT FOR ICONS
+const classesForIcons = {
+  divClass: `lagerThenLg:w-[55px] lagerThenLg:h-[55px] rounded-lg hover:bg-purple-300 ease-in duration-300 bg-[#3E73DB] flex lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] sm:w-[35px] sm:h-[35px]  mediumPhone:w-[40px] mediumPhone:h-[40px] smallerPhone:w-[30px] smallerPhone:h-[30px]`,
+  imageClass: `lg:w-[22px] lg:h-[25px] m-auto sm:w-[17px] sm:h-[20px] mediumPhone:w-[22px] mediumPhone:h-[25px] smallerPhone:w-[14px]  smallerPhone:h-[17px]`,
+};
+
+export { faceBookIcon, linkedinIcon, instagramIcon, classesForIcons };
