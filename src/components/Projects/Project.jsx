@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { ProjectHead, SingleProject } from "../ProjectComponents/projectIndex";
 
 function Project() {
   return (
-    <div>Project</div>
-  )
+    <div className="mb-6 min-h-[100vh]">
+      <ProjectHead />
+      <SingleProject />
+    </div>
+  );
 }
 
-export default Project
+export default Project;
