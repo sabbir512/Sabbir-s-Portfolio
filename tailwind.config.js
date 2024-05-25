@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        '2fr-1fr': '2fr 1fr',
+      }
+    },
     screens: {
       smallerPhone: "260px",
       // => @media (min-width: 260px) { ... }
