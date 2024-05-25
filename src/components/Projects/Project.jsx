@@ -3,7 +3,7 @@ import { ProjectHead, SingleProject } from "../ProjectComponents/projectIndex";
 
 function Project() {
   return (
-    <div className="mb-6 min-h-[100vh]">
+    <div className="pb-6 min-h-[100vh] bg-gray-100">
       <ProjectHead />
       <SingleProject />
     </div>

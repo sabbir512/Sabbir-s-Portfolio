@@ -1,11 +1,10 @@
 import React from "react";
-import { realStateImage } from "../projectContent";
-function ProjectImage() {
+function ProjectImage({image}) {
   return (
     <div className="h-full">
-      <div className="w-[94%] bg-gray-300 h-[67vh] rounded">
+      <div className="w-full bg-gray-300 h-[67vh] rounded">
         <img
-          src={realStateImage}
+          src={image}
           alt="ProjectImage"
           className="w-[97%] h-[96%] m-auto pt-3 rounded-md"
         />

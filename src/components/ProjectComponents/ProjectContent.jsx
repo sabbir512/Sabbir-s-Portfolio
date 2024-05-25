@@ -1,6 +1,6 @@
 import React from "react";
-import { contentObject } from "../projectContent";
-function ProjectContent() {
+import WorkBtn from "../HomeComponents/WorkBtn";
+function ProjectContent({ webUrl, githubUrl, contents, heading }) {
   return (
     <div className="w-full">
       <div className="bg-gray-300 rounded h-[15vh]">
@@ -12,10 +12,21 @@ function ProjectContent() {
             color: "mediumblue",
           }}
         >
-          Real State
+          {heading}
         </h1>
       </div>
-      <p style={{ fontFamily: "Josefin Sans" }}>{contentObject.realstate}</p>
+
+      <p
+        className="text-[20px] leading-[28px] pt-4 mb-[5%] h-full flex items-center"
+        style={{ fontFamily: "Josefin Sans" }}
+      >
+        {contents}
+      </p>
+
+      <div className="flex items-center gap-6">
+        <WorkBtn btnText="View Website" url={webUrl} />
+        <WorkBtn btnText="Source Code" url={githubUrl} />
+      </div>
     </div>
   );
 }
