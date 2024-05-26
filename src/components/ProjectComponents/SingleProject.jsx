@@ -17,9 +17,9 @@ import {
 } from "../projectContent";
 function SingleProject() {
   return (
-    <div className="px-4">
+    <div className="px-4 lg:px-4 sm:px-8">
       {/*First Project */}
-      <div className="grid grid-cols-2fr-1fr gap-6">
+      <div className="grid md:grid-cols-2fr-1fr gap-6 smallerPhone:grid-rows-1 smallerPhone:border-red-500">
         <div>
           <ProjectImage image={realStateImage} />
         </div>
@@ -34,8 +34,8 @@ function SingleProject() {
       </div>
 
       {/*Second Project*/}
-      <div className="grid grid-cols-1fr-2fr mt-5 gap-6">
-        <div>
+      <div className="grid md:grid-cols-1fr-2fr mt-5 gap-6 smallerPhone:grid-rows-1">
+        <div className="order-2 md:order-none">
           <ProjectContent
             heading="Tribute Page"
             contents={contentObject.tributeapp}
@@ -43,13 +43,13 @@ function SingleProject() {
             githubUrl={tributePageCodeUrl}
           />
         </div>
-        <div>
+        <div className="order-1 md:order-none">
           <ProjectImage image={tributePage} />
         </div>
       </div>
 
       {/*Third Project*/}
-      <div className="grid grid-cols-2fr-1fr mt-5 gap-6">
+      <div className="grid md:grid-cols-2fr-1fr mt-5 gap-6 grid-rows-1">
         <div>
           <ProjectImage image={newsApp} />
         </div>
