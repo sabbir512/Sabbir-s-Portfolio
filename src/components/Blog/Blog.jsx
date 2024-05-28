@@ -2,7 +2,9 @@ import React from 'react'
 
 function Blog() {
   return (
-    <div>This is the Blog</div>
+    <div className='min-h-[100vh]'>
+      <div>This is the blog page</div>
+    </div>
   )
 }
 

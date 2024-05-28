@@ -15,7 +15,7 @@ function FooterIcon() {
         <a
           href="https://www.google.com"
           target="_blank"
-          className="hover:bg-purple-300 ease-in duration-300"
+          className="ease-in duration-300"
         >
           <div className={classesForIcons.divClass}>
             <img
@@ -29,7 +29,7 @@ function FooterIcon() {
         <a
           href="https://www.google.com"
           target="_blank"
-          className="hover:bg-purple-300 ease-in duration-300"
+          className="ease-in duration-300"
         >
           <div className={classesForIcons.divClass}>
             <img
@@ -43,7 +43,7 @@ function FooterIcon() {
         <a
           href="https://www.google.com"
           target="_blank"
-          className="hover:bg-purple-300 ease-in duration-300"
+          className="ease-in duration-300"
         >
           <div className={classesForIcons.divClass}>
             <img

@@ -11,9 +11,10 @@ import {
   newsAppWebUrl,
   newsAppCodeUrl,
 } from "../projectContent";
+import { Link } from "react-router-dom";
 function Work() {
   return (
-    <div className="w-[100%]">
+    <div className="w-[100%]" id="homeProjects">
       <h2
         className="text-white font-medium text-center lg:text-[65px] md:text-[50px] sm:text-[40px] mediumPhone:text-[20px] smallerPhone:text-[16px]"
         style={{ fontFamily: "Roboto" }}
@@ -45,14 +46,14 @@ function Work() {
 
       {/*Creating the bottom button*/}
       <div id="bigbutton" className="text-center py-4">
-        <a href="#">
+        <Link to="/project">
           <button
             className="md:text-[38px] font-bold text-white border-[#000D47] border-8 rounded-md border-solid px-5 py-1 ease-in duration-300 hover:bg-orange-500 hover:border-orange-600 sm:text-[30px] mediumPhone:text-[20px] smallerPhone:text-[18px]"
             style={{ fontFamily: "Istok Web" }}
           >
             More Projects
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -39,7 +39,7 @@ function Navbar() {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                `hover:text-orange-400 ${
+                `hover:text-orange-400 ease-in duration-300 ${
                   isActive ? "text-orange-600" : "white"
                 }`
               }
@@ -52,7 +52,7 @@ function Navbar() {
             <NavLink
               to="/project"
               className={({ isActive }) =>
-                `hover:text-orange-400 ${
+                `hover:text-orange-400 ease-in duration-300 ${
                   isActive ? "text-orange-600" : "white"
                 }`
               }
@@ -65,7 +65,7 @@ function Navbar() {
             <NavLink
               to="blog"
               className= {({ isActive }) =>
-                `hover:text-orange-400 ${
+                `hover:text-orange-400 ease-in duration-300 ${
                   isActive ? "text-orange-600" : "white"
                 }`
               }
