@@ -3,7 +3,7 @@ import WorkBtn from "../HomeComponents/WorkBtn";
 function ProjectContent({ webUrl, githubUrl, contents, heading }) {
   return (
     <div className="w-full">
-      <div className="bg-gray-300 rounded h-[15vh] lg:h-[15vh] md:h-[10vh]">
+      <div className="bg-gray-300 rounded h-[15vh] lg:h-[15vh] md:h-[10vh] smallerPhone:h-[8vh] extPhone:h-[10vh] sm:h-[12vh]">
         <h1
           className="flex justify-center items-center h-full text-5xl lg:text-5xl sm:leading-5xl md:text-3xl extPhone:text-[4xl] smallerPhone:text-2xl"
           style={{
