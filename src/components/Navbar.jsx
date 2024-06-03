@@ -63,7 +63,7 @@ function Navbar() {
 
           <li>
             <NavLink
-              to="blog"
+              to="/blog"
               className= {({ isActive }) =>
                 `hover:text-orange-400 ease-in duration-300 ${
                   isActive ? "text-orange-600" : "white"

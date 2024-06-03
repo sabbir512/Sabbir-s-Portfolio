@@ -31,5 +31,5 @@ export {
   NavLogo,
   FooterIcon,
   Project,
-  Blog
+  Blog,
 };
