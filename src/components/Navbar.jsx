@@ -61,7 +61,7 @@ function Navbar() {
             </NavLink>
           </li>
 
-          <li>
+          {/* <li>
             <NavLink
               to="/blog"
               className= {({ isActive }) =>
@@ -72,7 +72,7 @@ function Navbar() {
             >
               Blogs
             </NavLink>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

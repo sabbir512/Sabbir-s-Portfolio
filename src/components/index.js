@@ -14,7 +14,7 @@ import NavLogo from "./NavLogo";
 import FooterIcon from "./FooterIcon";
 import Project from "./Projects/Project";
 import Blog from "./Blog/Blog";
-
+import FullPost from "./FullPost";
 export {
   App,
   Hero,
@@ -32,4 +32,5 @@ export {
   FooterIcon,
   Project,
   Blog,
+  FullPost
 };
