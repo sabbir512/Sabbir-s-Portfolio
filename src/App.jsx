@@ -2,7 +2,7 @@ import { Navbar, Footer} from "./components/index";
 import { Outlet } from "react-router-dom";
 function App() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Navbar />
       <Outlet />
       <Footer />
