@@ -4,6 +4,7 @@ import {
   realStateImage,
   tributePage,
   newsApp,
+  netfilxImg,
   contentObject,
 } from "../projectContent";
 
@@ -14,6 +15,8 @@ import {
   tributePageCodeUrl,
   newsAppWebUrl,
   newsAppCodeUrl,
+  netfilxWebUrl,
+  netfilxCodeUrl,
 } from "../projectContent";
 function SingleProject() {
   return (
@@ -60,6 +63,22 @@ function SingleProject() {
             webUrl={newsAppWebUrl}
             githubUrl={newsAppCodeUrl}
           />
+        </div>
+      </div>
+      {/*-------------------*/}
+
+      {/*Fourth Project*/}
+      <div className="grid md:grid-cols-1fr-2fr mt-5 gap-6 smallerPhone:grid-rows-1">
+        <div className="order-2 md:order-none">
+          <ProjectContent
+            heading="Netflix Clone"
+            contents={contentObject.netflixClone}
+            webUrl={netfilxWebUrl}
+            githubUrl={netfilxCodeUrl}
+          />
+        </div>
+        <div className="order-1 md:order-none">
+          <ProjectImage image={netfilxImg} />
         </div>
       </div>
       {/*-------------------*/}
