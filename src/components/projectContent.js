@@ -6,6 +6,8 @@ export const contentObject = {
     "This tribute page, crafted during my FreeCodeCamp journey, showcases my HTML and CSS skills.It pays homage to Dr. Norman Borlaug, a renowned American agronomist and humanitarian, demonstrating my ability to create visually appealing, responsive web pages.",
   newsapp:
     "This React and Bootstrap news website showcases my proficiency in front-end development and API integration. Despite API limitations, navigating challenges like static data display enriched my problem-solving skills, ensuring a robust learning journey.",
+  netflixClone:
+    "This is a clone of Netflix's home page. I built it with HTML and CSS. It's not responsive yet; I didn't intend to make it responsive. Creating a clone and finding the exact font, color, and images can be very challenging. I learned this while working on this website. It was also hard to replicate the exact style.",
 };
 
 //Variables of url for work componet
@@ -15,6 +17,8 @@ const tributePageWebUrl = "https://tribute-dusky-two.vercel.app/";
 const tributePageCodeUrl = "https://github.com/sabbir512/TributePage";
 const newsAppWebUrl = "https://dailynewsapp-sabbir-arnobs-projects.vercel.app";
 const newsAppCodeUrl = "https://github.com/sabbir512/DailyNews";
+const netfilxWebUrl = "https://netflix-clone-iota-fawn-16.vercel.app";
+const netfilxCodeUrl = "https://github.com/sabbir512/netflix_clone";
 
 export {
   realStateCodeUrl,
@@ -23,14 +27,17 @@ export {
   tributePageCodeUrl,
   newsAppWebUrl,
   newsAppCodeUrl,
+  netfilxCodeUrl,
+  netfilxWebUrl,
 };
 
 //Images for work component
 import realStateImage from "../assets/projectImage/realstate.png";
 import tributePage from "../assets/projectImage/tribute.png";
 import newsApp from "../assets/projectImage/newsapp.png";
+import netfilxImg from "../assets/projectImage/netflix.png";
 
-export { realStateImage, tributePage, newsApp };
+export { realStateImage, tributePage, newsApp, netfilxImg };
 
 //Logos for ExpContent Component
 
@@ -103,7 +110,7 @@ export { phoneIcon, emailIcon };
 //FOOTER ICONS
 import faceBookIcon from "../assets/icons/facebook-f.svg";
 import linkedinIcon from "../assets/icons/linkedin-in.svg";
-import instagramIcon from "../assets/icons/instagram.svg";
+import twitterIcon from "../assets/icons/square-x-twitter.svg";
 
 //CLASS OBJECT FOR ICONS
 const classesForIcons = {
@@ -111,4 +118,4 @@ const classesForIcons = {
   imageClass: `lg:w-[22px] lg:h-[25px] m-auto sm:w-[17px] sm:h-[20px] mediumPhone:w-[22px] mediumPhone:h-[25px] smallerPhone:w-[14px]  smallerPhone:h-[17px]`,
 };
 
-export { faceBookIcon, linkedinIcon, instagramIcon, classesForIcons };
+export { faceBookIcon, linkedinIcon, twitterIcon, classesForIcons };
