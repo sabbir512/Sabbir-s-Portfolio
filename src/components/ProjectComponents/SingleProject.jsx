@@ -6,6 +6,7 @@ import {
   newsApp,
   netfilxImg,
   contentObject,
+  textFormatterImg,
 } from "../projectContent";
 
 import {
@@ -17,11 +18,28 @@ import {
   newsAppCodeUrl,
   netfilxWebUrl,
   netfilxCodeUrl,
+  textFormatterWeb,
+  textFormatterGit,
 } from "../projectContent";
 function SingleProject() {
   return (
     <div className="px-4 lg:px-4 sm:px-8">
-      {/*First Project */}
+      {/*First Project*/}
+      <div className="grid md:grid-cols-1fr-2fr mt-5 gap-6 smallerPhone:grid-rows-1 mb-5">
+        <div className="order-2 md:order-none">
+          <ProjectContent
+            heading="Text Formatter"
+            contents={contentObject.textformatterApp}
+            webUrl={textFormatterWeb}
+            githubUrl={textFormatterGit}
+          />
+        </div>
+        <div className="order-1 md:order-none">
+          <ProjectImage image={textFormatterImg} />
+        </div>
+      </div>
+
+      {/*Second Project */}
       <div className="grid md:grid-cols-2fr-1fr gap-6 smallerPhone:grid-rows-1 smallerPhone:border-red-500">
         <div>
           <ProjectImage image={realStateImage} />
@@ -36,7 +54,7 @@ function SingleProject() {
         </div>
       </div>
 
-      {/*Second Project*/}
+      {/*Third Project*/}
       <div className="grid md:grid-cols-1fr-2fr mt-5 gap-6 smallerPhone:grid-rows-1">
         <div className="order-2 md:order-none">
           <ProjectContent
@@ -51,7 +69,7 @@ function SingleProject() {
         </div>
       </div>
 
-      {/*Third Project*/}
+      {/*Fourth Project*/}
       <div className="grid md:grid-cols-2fr-1fr mt-5 gap-6 grid-rows-1">
         <div>
           <ProjectImage image={newsApp} />
@@ -67,7 +85,7 @@ function SingleProject() {
       </div>
       {/*-------------------*/}
 
-      {/*Fourth Project*/}
+      {/*Fivth Project*/}
       <div className="grid md:grid-cols-1fr-2fr mt-5 gap-6 smallerPhone:grid-rows-1">
         <div className="order-2 md:order-none">
           <ProjectContent

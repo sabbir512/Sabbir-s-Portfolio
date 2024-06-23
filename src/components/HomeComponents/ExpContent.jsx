@@ -29,7 +29,7 @@ function ExpContent() {
         <ExpImage Logos={figmaLogo} logoName="Figma" />
         <ExpImage Logos={mongoLogo} logoName="MongoDB" />
         <ExpImage Logos={gitLogo} logoName="Git" />
-        <ExpImage Logos={githubLogo} logoName="Github" />
+        <ExpImage Logos={githubLogo} logoName="Github"/>
       </div>
     </div>
   );

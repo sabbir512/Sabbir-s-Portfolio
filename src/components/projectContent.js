@@ -1,5 +1,7 @@
 //Contents for work component
 export const contentObject = {
+  textformatterApp:
+    "This is a text formatter app where you can format or analyze your text. Built with React and Bootstrap, creating this website taught me many skills, including debugging, logic creation, and finding answers on Google.",
   realstate:
     "This single-page website is a testament to my skills in JavaScript, CSS, and HTML. Utilizing Swiper.js for animations added an extra layer of dynamism to the project. While the journey had its challenges, overcoming them was immensely rewarding, and I gained valuable insights along the way.",
   tributeapp:
@@ -19,6 +21,8 @@ const newsAppWebUrl = "https://dailynewsapp-sabbir-arnobs-projects.vercel.app";
 const newsAppCodeUrl = "https://github.com/sabbir512/DailyNews";
 const netfilxWebUrl = "https://netflix-clone-iota-fawn-16.vercel.app";
 const netfilxCodeUrl = "https://github.com/sabbir512/netflix_clone";
+const textFormatterWeb = "https://textformatter-sigma.vercel.app";
+const textFormatterGit = "https://github.com/sabbir512/TEXTTUTILS";
 
 export {
   realStateCodeUrl,
@@ -29,6 +33,8 @@ export {
   newsAppCodeUrl,
   netfilxCodeUrl,
   netfilxWebUrl,
+  textFormatterWeb,
+  textFormatterGit,
 };
 
 //Images for work component
@@ -36,8 +42,9 @@ import realStateImage from "../assets/projectImage/realstate.png";
 import tributePage from "../assets/projectImage/tribute.png";
 import newsApp from "../assets/projectImage/newsapp.png";
 import netfilxImg from "../assets/projectImage/netflix.png";
+import textFormatterImg from "../assets/projectImage/textFormatter.png";
 
-export { realStateImage, tributePage, newsApp, netfilxImg };
+export { realStateImage, tributePage, newsApp, netfilxImg, textFormatterImg };
 
 //Logos for ExpContent Component
 
