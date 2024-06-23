@@ -1,5 +1,6 @@
 import React from "react";
 import AboutButton from "./AboutButton";
+import resume from "../../assets/Resume/MyResume.pdf";
 
 function AboutText() {
   const handleHireMe = () => {
@@ -42,6 +43,7 @@ function AboutText() {
           text="RESUME"
           bgColor="bg-[#060D2D]"
           hoverColor="hover:bg-blue-600"
+          resume={resume}
         />
       </div>
     </div>
