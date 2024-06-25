@@ -23,7 +23,10 @@ function Hero() {
       >
         FRONT-END SOFTWARE DEVELOPER
       </div>
-      <Button text="View Projects" onclick={handleProjectView} />
+      <div className="flex gap-4">
+        <Button text="View Projects" onclick={handleProjectView} />
+        <Button text="GitHub" githubLink={"https://github.com/sabbir512"} />
+      </div>
     </div>
   );
 }
