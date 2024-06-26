@@ -1,15 +1,19 @@
 import React from "react";
 import WorkContent from "./WorkContent";
 //Getting the image and content from projectContent file, because i don't want grow bigger this componnet so that's why i simply export it from another file.
-import { realStateImage, tributePage, newsApp } from "../projectContent";
+import {
+  realStateImage,
+  tributePage,
+  textFormatterImg,
+} from "../projectContent";
 import { contentObject } from "../projectContent";
 import {
   realStateWebUrl,
   realStateCodeUrl,
   tributePageWebUrl,
   tributePageCodeUrl,
-  newsAppWebUrl,
-  newsAppCodeUrl,
+  textFormatterWeb,
+  textFormatterGit,
 } from "../projectContent";
 import { Link } from "react-router-dom";
 function Work() {
@@ -37,10 +41,10 @@ function Work() {
         />
 
         <WorkContent
-          Image={newsApp}
-          content={contentObject.newsapp}
-          websiteUrl={newsAppWebUrl}
-          githubUrl={newsAppCodeUrl}
+          Image={textFormatterImg}
+          content={contentObject.textformatterApp}
+          websiteUrl={textFormatterWeb}
+          githubUrl={textFormatterGit}
         />
       </div>
 
