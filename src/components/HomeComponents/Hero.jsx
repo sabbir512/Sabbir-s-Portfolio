@@ -21,7 +21,7 @@ function Hero() {
         className="text-white lg:text-[73px] lg:w-[39%]  lg:leading-[78px] md:text-[66px] md:min-w-[75%]  md:leading-[70px] sm:leading-[57px] sm:text-[54px] sm:min-w-[75%] mediumPhone:text-[44px] mediumPhone:leading-[53px] max-w-[358px] text-[28px] leading-[47px] w-[299px]"
         style={{ fontFamily: "Roboto" }}
       >
-        FRONT-END SOFTWARE DEVELOPER
+        FULLSTACK SOFTWARE DEVELOPER
       </div>
       <div className="flex gap-4">
         <Button text="View Projects" onclick={handleProjectView} />
